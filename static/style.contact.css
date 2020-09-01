@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.items{
+    width: 45%;
+  
+    border: 2px transparent black;
+    margin: 5px 4px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 23px;
+    }
+.container{
+    height: 83vh;
+}
+.btn{
+    border-radius: 8px;
+    margin: 5px 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #479999;
+    outline: none;
+
+}
